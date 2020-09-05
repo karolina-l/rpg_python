@@ -60,7 +60,7 @@ class Person:
     def choose_action(self):
         i = 1
         print("actions")
-        for item in self.actions:
+        for item in self.action:
             print(str(i) + ":", item)
             i += 1
 
